@@ -16,4 +16,6 @@ func main() {
 	fmt.Printf("math > Now you have %g problems.\n", math.Sqrt(7))
 
 	fmt.Println("math/rand > My favorite number is", rand.Intn(10))
+
+	fmt.Println("Sum > 2 + 3", Sum(2, 3))
 }
